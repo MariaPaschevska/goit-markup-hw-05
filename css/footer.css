@@ -8,11 +8,11 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
 }
 
 .footer-slogan {
   width: 264px;
+  margin-right: 120px;
 }
 
 .footer-text {
@@ -25,6 +25,7 @@
 .footer-social-media {
   display: flex;
   flex-direction: column;
+  margin-right: 83px;
 }
 
 .footer-social-media .social-list {
@@ -39,6 +40,10 @@
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 8px;
+}
+
+.subscribe-title {
+  margin-bottom: 16px;
 }
 
 .footer-social-media .social-link:hover,
@@ -89,8 +94,7 @@
 }
 
 .subscribe-input {
-  flex-grow: 1;
-  min-width: 264px;
+  width: 264px;
   height: 40px;
 
   padding-left: 16px;
@@ -103,10 +107,16 @@
   background-color: transparent;
   color: var(--white-bg-color);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
 }
 
 .subscribe-input::placeholder {
   font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
   color: var(--white-bg-color);
 }
 
