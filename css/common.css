@@ -7,7 +7,7 @@
   --subtitle-color: #8e8f99;
   --accent-color: #e7e9fc;
   --light-color: #f4f4fd;
-  --modal-overlay-color: #2e2f42;
+  --modal-overlay-color: rgba(46, 47, 66, 0.4); 
   --hero-bg-color: #2e2f42;
   --white-bg-color: #ffffff;
   --modal-bg-color: #fcfcfc;
