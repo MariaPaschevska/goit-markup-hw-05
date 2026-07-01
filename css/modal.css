@@ -174,7 +174,6 @@
   width: 100%;
   min-height: 120px;
   padding: 8px 16px;
-  margin-bottom: 16px;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -222,7 +221,8 @@
 .modal-checkbox-field {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 24px;
+  margin-top: 8px;
+  margin-bottom: 0;
 }
 
 .modal-checkbox-label {
@@ -270,10 +270,6 @@
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--subtitle-color);
-}
-
-.modal-checkbox-text a {
-  color: var(--primary-brand-color);
 }
 
 .modal-checkbox-text a {
